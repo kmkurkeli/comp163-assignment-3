@@ -1,9 +1,9 @@
-# College Life Adventure
+#College Life Adventure
 
-## How to run
+#How to run
 python kurk_assignment_3.py
 
-## Concepts Demonstrated
+#Concepts Demonstrated
 - if/elif/else (course planning)
 - Comparison operators
 - Membership operators (in, not in)
@@ -12,5 +12,5 @@ python kurk_assignment_3.py
 - Nested if
 - Multiple endings
 
-## AI Assistance
+#AI Assistance
 Used only for syntax/clarification notes; all decision logic and story by me.
