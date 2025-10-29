@@ -1,0 +1,7 @@
+Character Name: Aria
+Class: Warrior
+Level: 1
+Strength: 11
+Magic: 1
+Health: 40
+Gold: 50
