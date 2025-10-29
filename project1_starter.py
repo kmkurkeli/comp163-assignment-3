@@ -2,6 +2,9 @@
 #Comp 163 Section 5
 #10/20/2025
 
+#AI Use Explanation:
+#ChatGPT was used to assist with debugging, and AI was used to explain
+#certain strings and blocks of code
 
 
 # Configuration & Data Tables
@@ -292,12 +295,4 @@ def generate_backstory(name, char_class):
     return templates.get(char_class, f"{name} wanders with untold stories.")
 
 
-if __name__ == "__main__":
-    # (AI-assisted) Simple run to sanity-check save/load without tests.
-    hero = create_character("Aria", "Warrior")
-    print(display_character(hero))
-    ok = save_character(hero, "aria.txt")
-    print("Save result:", ok)
-    loaded = load_character("aria.txt")
-    print("Loaded object type:", type(loaded))
-    print(display_character(loaded) if isinstance(loaded, dict) else loaded)
+
